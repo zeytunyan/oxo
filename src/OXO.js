@@ -18,7 +18,7 @@ function startGame() {
 
 function setParams() {
     enemy = document.getElementById('pve').checked;
-    OXO = document.getElementById('circle').checked;
+    OXO = document.getElementById('cross').checked;
 }
 
 function clearField() {
