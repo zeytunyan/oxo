@@ -1,0 +1,81 @@
+﻿@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: scroll;
+    background-image: url(../images/spiral-notebook-paper-texture.jpg);
+    background-repeat: repeat-y;
+    background-position: left top;
+    background-size: cover;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#field {
+    height: 540px;
+    width: 540px;
+    border: 1px solid #1a4e8a;
+    margin: auto;
+    margin-top: 199px;
+    background-color: rgba(253, 250, 243, 0.8);
+}
+
+.cell {
+    width: 133px;
+    height: 133px;
+    border: 1px solid #1a4e8a;
+    text-align: center;
+    font-size: 110px;
+    font-weight: bold;
+    color: #1a4e8a;
+    float: left;
+}
+
+.text {
+    font-size: 50px;
+    text-align: center;
+    color: #1a4e8a;
+    margin: auto;
+}
+
+.semi-transparent-button {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: #1a4e8a;
+    border: 2px solid #1a4e8a;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.semi-transparent-button:hover {
+    background: #1a4e8a;
+    color: rgb(253, 250, 243);
+    cursor: pointer;
+}
+
+input {
+    height: 30px;
+    width: 30px;
+}
+
+table {
+    width: 540px;
+    height: 540px;
+}
+
+tr {
+    height: 91px;
+}
+
+td {
+    width: 270px;
+    height: 91px;
+}

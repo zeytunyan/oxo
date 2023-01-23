@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OXO</title>
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="shortcut icon" type="image/gif" />
+
+  </head>
+
+  <body>
+    <div id="field">
+      <div class="text">
+        <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="right">
+              ✘→O<input name="choice" type="radio" id="cross" checked />
+            </td>
+            <td align="left">
+              <input name="choice" type="radio" id="circle" />O→✘
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              2 players<input name="pv" type="radio" id="pvp" checked />
+            </td>
+            <td align="left">
+              <input name="pv" type="radio" id="pve" />1 player
+            </td>
+          </tr>
+          <tr style="visibility: hidden">
+            <td align="right">
+              I - player<input name="first" type="radio" id="player" checked />
+            </td>
+            <td align="left">
+              <input name="first" type="radio" id="computer" />I - comp
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <div class="semi-transparent-button">⏎</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="src/OXO.js"></script>
+
+  </body>
+</html>
